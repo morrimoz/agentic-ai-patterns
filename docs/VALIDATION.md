@@ -19,7 +19,7 @@ The command runs the behavioral acceptance suite, all nine focused demos, an act
 | 3.14.10 | 41 passed | 9 passed | Passed | Passed |
 | 3.15.2 | 41 passed | 9 passed | Passed | Passed |
 
-Python 3.15 is the default. Linux CI is configured for the three release lines. The recorded table describes local runs; it does not claim a hosted CI result. Python 3.15 exposes upstream LangSmith deprecation warnings, which do not fail acceptance.
+Python 3.15 is the default. Linux CI is configured for the three release lines. GitHub Actions also passed the full offline verification on Linux across all three release lines. [Initial hosted run](https://github.com/morrimoz/agentic-ai-patterns/actions/runs/40765416390) includes downloadable evidence for each runtime. Python 3.15 exposes upstream LangSmith deprecation warnings, which do not fail acceptance.
 
 The wheel was also installed in an isolated Python 3.15.2 environment. All nine demo scripts and the integrated walkthrough passed with a working directory outside the source checkout. This checks that the explicit package mappings are included in distribution.
 
