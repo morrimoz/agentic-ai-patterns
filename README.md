@@ -1,5 +1,7 @@
 # Agentic AI patterns
 
+[![Tests](https://github.com/morrimoz/agentic-ai-patterns/actions/workflows/tests.yml/badge.svg)](https://github.com/morrimoz/agentic-ai-patterns/actions/workflows/tests.yml)
+
 An invoice investigation service built from nine inspectable AI engineering patterns. It reads an accounting ledger through MCP, retrieves policy, proposes a credit, waits for a reviewed decision and verifies the resulting accounting entry. It also recovers when a worker loses the response after the accounting service commits.
 
 **Start with the implementation:** [workflow graph](deterministic-workflow-with-subagents/graph.py), [agent runtime](agents-as-tools/agent.py), [application service](application/service.py), or [end-to-end acceptance cases](tests/test_application.py).
